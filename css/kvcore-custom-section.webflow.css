@@ -1,0 +1,167 @@
+.cta-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.link-block {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-bottom: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-basis: 32.5%;
+  -ms-flex-preferred-size: 32.5%;
+  flex-basis: 32.5%;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-block.long {
+  -webkit-flex-basis: 65.77%;
+  -ms-flex-preferred-size: 65.77%;
+  flex-basis: 65.77%;
+}
+
+.link-block.research {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('//s3-us-west-1.amazonaws.com/kvcore/web-idx/images/Research-Neighborhoods.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-block.search {
+  background-image: url('//s3-us-west-1.amazonaws.com/kvcore/web-idx/images/Map-Search.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.link-block.construction {
+  background-image: url('//s3-us-west-1.amazonaws.com/kvcore/web-idx/images/New-Construction.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25));
+}
+
+.heading {
+  position: relative;
+  z-index: 1;
+  font-family: Raleway, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 5px #000;
+}
+
+.overlay-button {
+  position: relative;
+  z-index: 1;
+  padding: 9px 15px;
+  background-color: #000;
+  text-transform: uppercase;
+}
+
+.text-span {
+  font-weight: 700;
+}
+
+.text-block {
+  font-family: Raleway, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .link-block {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+}
+
